@@ -121,7 +121,7 @@ class Swimming(Training):
         return spent_calories
 
 
-"""Словарь CLASS_TRAINING содержит допустимые тренировки: 
+"""Словарь CLASS_TRAINING содержит допустимые тренировки:
 RUN - бег,
 WLK - спортивная ходьба (бег),
 SWM - плавание."""
