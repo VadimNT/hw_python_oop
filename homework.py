@@ -136,7 +136,7 @@ def read_package(t_type: str, params_training: list) -> Training:
     """Считать входные данные с датчиков."""
     if t_type in CLASS_TRAINING:
         return CLASS_TRAINING[t_type](*params_training)
-    print('Тренировка не задана!')
+    raise TypeError('Тренировка не задана!')
 
 
 def main(t: Training) -> None:
